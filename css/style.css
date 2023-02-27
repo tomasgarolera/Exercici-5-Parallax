@@ -24,6 +24,20 @@ body {
 	border-style: dotted;
 	margin: 10px;
   }
+  
+  nav li>ul{
+	position:absolute;
+	left:0px;
+	top:30px;
+	display:block;
+	}
+
+nav li:hover>ul{
+	display:block;
+	}
+
+
+
 /* Estilo para el menú */
 nav {
 	position: fixed;
