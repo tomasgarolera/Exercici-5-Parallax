@@ -8,17 +8,17 @@ body {
 .caixa1 {
 	float: left;
 	width: 500px;
-	height: 450px;
+	height: 500px;
 	padding: 10px 12px 14px 16px;
-	margin: 20px;
+	margin: 30px;
   }
   .caixa2 {
 	float: left;
 	background-color: #E5E5E5;
 	width: 500px;
-	height: 450px;
+	height: 500px;
 	padding: 10px 12px 14px 16px;
-	margin: 20px;
+	margin: 30px;
   }
   
   nav li>ul{
