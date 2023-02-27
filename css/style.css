@@ -18,12 +18,42 @@ body {
 	width: 500px;
 	height: 500px;
 	padding: 10px 12px 14px 16px;
-	margin: 45px;
+	margin: 50px;
   }
   
-  nav{
-	position:relative;
-	top:100px;
+  nav li>ul{
+	position:;
+	left:0px;
+	top:30px;
+	display:block;
+	}
+
+nav li:hover>ul{
+	display:block;
+	}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	z-index: 100;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav{
+	position:fixed;
 	margin:auto;
   
   }
@@ -39,15 +69,15 @@ body {
 	width:150px;
 	height:30px;
 	padding:5px 10px;
-	border:1px solid #000;
+	border:1px solid #333;
 	text-align:center;
-	background-color:#000;
+	background-color:#333;
 	color:#fff;
   }
 			
   nav li:hover{
 	background-color:#fff;
-	color:#000;
+	color:#333;
   }
 			
   nav li>ul{
@@ -64,8 +94,6 @@ body {
   nav li:hover>ul{
 	display:block;
   }
-  
-  
 
 .parallax {
 	background-image: url('https://i.blogs.es/96c5ad/pan_tomate/1366_2000.jpeg');
