@@ -4,7 +4,7 @@ body {
 	font-family: Arial, sans-serif;
 	background-color: #f2f2f2;
 }
-/* Estilo para la mesa */
+
 .caixa1 {
 	float: left;
 	width: 500px;
@@ -38,7 +38,6 @@ nav li:hover>ul{
 
 
 
-/* Estilo para el menú */
 nav {
 	position: fixed;
 	top: 0;
@@ -66,7 +65,7 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 }
-/* Estilo para el efecto Parallax */
+
 .parallax {
 	background-image: url('https://via.placeholder.com/1600x900');
 	height: 800px;
